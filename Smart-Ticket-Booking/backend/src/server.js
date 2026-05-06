@@ -14,8 +14,7 @@ const app = express();
 app.use(helmet());
 app.use(cors({ origin: ['http://localhost:5173',
     'http://localhost:3000',
-    'https://your-frontend-url.onrender.com',
-    'https://your-frontend-url.vercel.app'], credentials: true }));
+    'https://smart-ticket-frontend-01xr.onrender.com'], credentials: true }));
 app.use(express.json());
 app.use(morgan('dev'));
 app.use(rateLimit({ windowMs: 15 * 60 * 1000, max: 200 }));
