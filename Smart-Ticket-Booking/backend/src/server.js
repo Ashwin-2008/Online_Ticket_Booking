@@ -17,22 +17,19 @@ app.use(express.json());
 app.use(morgan('dev'));
 app.use(rateLimit({ windowMs: 15 * 60 * 1000, max: 200 }));
 
+app.get('/', (req, res) => {
+	res.json({
+		success: true,
+		message: 'Smart Ticket Backend API Running',
+	});
+});
+
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/admin', require('./routes/admin'));
 app.use('/api/company', require('./routes/company'));
 app.use('/api/services', require('./routes/services'));
 app.use('/api/bookings', require('./routes/bookings'));
 app.use('/api/chat', require('./routes/chat'));
-
-app.get('/', (req, res) => {
-	res.json({
-		name: 'Smart Ticket Booking API',
-		status: 'running',
-		health: '/api/health',
-		docs: '/docs',
-		chatbotDocs: 'http://localhost:8000/docs',
-	});
-});
 
 app.get('/docs', (req, res) => {
 	res.type('html').send(`
