@@ -1,0 +1,47 @@
+[
+  {
+    "name": "RedBus Travels",
+    "email": "redbus@example.com",
+    "phone": "9876543210",
+    "serviceType": "bus",
+    "description": "Premium intercity bus services",
+    "approvalStatus": "approved",
+    "totalRevenue": 0
+  },
+  {
+    "name": "Indian Railways",
+    "email": "rail@example.com",
+    "phone": "9123456780",
+    "serviceType": "train",
+    "description": "National railway transport",
+    "approvalStatus": "approved",
+    "totalRevenue": 0
+  },
+  {
+    "name": "SkyJet Airlines",
+    "email": "skyjet@example.com",
+    "phone": "9988776655",
+    "serviceType": "flight",
+    "description": "Domestic and international flights",
+    "approvalStatus": "approved",
+    "totalRevenue": 0
+  },
+  {
+    "name": "PVR Cinemas",
+    "email": "pvr@example.com",
+    "phone": "9001122334",
+    "serviceType": "movie",
+    "description": "Movie ticket booking services",
+    "approvalStatus": "approved",
+    "totalRevenue": 0
+  },
+  {
+    "name": "EventHub",
+    "email": "eventhub@example.com",
+    "phone": "9556677889",
+    "serviceType": "event",
+    "description": "Concert and event booking",
+    "approvalStatus": "approved",
+    "totalRevenue": 0
+  }
+]

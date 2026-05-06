@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Super Admin",
+    "email": "admin@smartticket.com",
+    "password": "Admin@123",
+    "role": "admin"
+  },
+  {
+    "name": "Arun Kumar",
+    "email": "user@example.com",
+    "password": "User@123",
+    "role": "user"
+  },
+  {
+    "name": "RedBus Company",
+    "email": "redbus@example.com",
+    "password": "Company@123",
+    "role": "company"
+  }
+]

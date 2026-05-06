@@ -1,0 +1,112 @@
+[
+  {
+    "serviceType": "bus",
+    "name": "Salem to Chennai Express",
+    "source": "Salem",
+    "destination": "Chennai",
+    "departureTime": "2026-05-08T08:00:00",
+    "arrivalTime": "2026-05-08T14:00:00",
+    "price": 450,
+    "totalSeats": 40,
+    "availableSeats": 40,
+    "amenities": ["AC", "WiFi", "Charging Point"]
+  },
+  {
+    "serviceType": "bus",
+    "name": "Chennai to Bangalore Night Rider",
+    "source": "Chennai",
+    "destination": "Bangalore",
+    "departureTime": "2026-05-08T22:00:00",
+    "arrivalTime": "2026-05-09T05:00:00",
+    "price": 700,
+    "totalSeats": 35,
+    "availableSeats": 35,
+    "amenities": ["Sleeper", "AC"]
+  },
+  {
+    "serviceType": "train",
+    "name": "Chennai Express",
+    "source": "Chennai",
+    "destination": "Madurai",
+    "departureTime": "2026-05-09T06:00:00",
+    "arrivalTime": "2026-05-09T13:00:00",
+    "price": 350,
+    "totalSeats": 120,
+    "availableSeats": 120
+  },
+  {
+    "serviceType": "train",
+    "name": "Bangalore Superfast",
+    "source": "Salem",
+    "destination": "Bangalore",
+    "departureTime": "2026-05-09T21:00:00",
+    "arrivalTime": "2026-05-10T04:00:00",
+    "price": 500,
+    "totalSeats": 100,
+    "availableSeats": 100
+  },
+  {
+    "serviceType": "flight",
+    "name": "SkyJet Chennai to Dubai",
+    "source": "Chennai",
+    "destination": "Dubai",
+    "departureTime": "2026-05-10T09:30:00",
+    "arrivalTime": "2026-05-10T13:00:00",
+    "price": 25000,
+    "totalSeats": 180,
+    "availableSeats": 180
+  },
+  {
+    "serviceType": "flight",
+    "name": "SkyJet Bangalore to Mumbai",
+    "source": "Bangalore",
+    "destination": "Mumbai",
+    "departureTime": "2026-05-11T17:00:00",
+    "arrivalTime": "2026-05-11T19:00:00",
+    "price": 6500,
+    "totalSeats": 150,
+    "availableSeats": 150
+  },
+  {
+    "serviceType": "movie",
+    "name": "Kalki 2898 AD",
+    "venue": "PVR Phoenix Mall, Chennai",
+    "source": "Chennai",
+    "date": "2026-05-08",
+    "departureTime": "2026-05-08T18:00:00",
+    "price": 220,
+    "totalSeats": 120,
+    "availableSeats": 120
+  },
+  {
+    "serviceType": "movie",
+    "name": "Leo",
+    "venue": "INOX Salem",
+    "source": "Salem",
+    "date": "2026-05-09",
+    "departureTime": "2026-05-09T20:00:00",
+    "price": 180,
+    "totalSeats": 100,
+    "availableSeats": 100
+  },
+  {
+    "serviceType": "event",
+    "name": "AR Rahman Live Concert",
+    "venue": "Nehru Stadium Chennai",
+    "source": "Chennai",
+    "date": "2026-05-15",
+    "price": 1500,
+    "totalSeats": 500,
+    "availableSeats": 500
+  },
+  {
+    "serviceType": "event",
+    "name": "Stand-Up Comedy Night",
+    "venue": "Coimbatore Hall",
+    "source": "Coimbatore",
+    "date": "2026-05-12",
+    "price": 600,
+    "totalSeats": 200,
+    "availableSeats": 200
+  }
+]
